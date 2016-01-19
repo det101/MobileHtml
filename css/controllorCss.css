@@ -1,0 +1,108 @@
+div.player
+{
+    position: absolute;
+    z-index: -2;
+    pointer-events:none;
+}
+
+div#controller_bar
+{
+    width: 480px;
+    height: 50px;
+    top: 280px;
+    position: absolute;
+    z-index: -1;
+}
+
+div#time
+{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    right: inherit;
+    pointer-events:none;
+}
+
+div.bar
+{
+    width: 480px;
+    background-color: dimgrey;
+    height: 10px;
+    position: absolute;
+    z-index: 0;
+    margin-top: 0px;
+    /*opacity:0.4;
+    filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
+
+}
+
+div.progress
+{
+    width: 480px;
+    height: 10px;
+    background-color: cornflowerblue;
+    z-index: 1;
+    position: absolute;
+    margin-top: 0px;
+    pointer-events:none;
+    /*opacity:0.4;
+    filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
+}
+
+div#bg
+{
+    width: 480px;
+    height: 30px;
+    background-color: black;
+    opacity:0.2;
+    filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
+    position: absolute;
+    z-index:-1
+}
+
+
+.play_button
+{
+    width: 16px;
+    height: 16px;
+    background-image:url(../res/video_player/icon_play.png);
+    background-color: transparent;
+    border:none;
+    outline:none;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.play_button:hover
+{
+    width: 16px;
+    height: 16px;
+    background-image:url(../res/video_player/icon_play_hover.png);
+    background-color: transparent;
+    border:none;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.pause_button
+{
+    width: 16px;
+    height: 16px;
+    background-image:url(../res/video_player/icon_pause.png);
+    background-color: transparent;
+    border:none;
+    outline:none;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.pause_button:hover
+{
+    width: 16px;
+    height: 16px;
+    background-image:url(../res/video_player/icon_pause_hover.png);
+    background-color: transparent;
+    border:none;
+    position: absolute;
+    margin-top: 10px;
+}
